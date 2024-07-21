@@ -1,0 +1,134 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi",
+              "Hey",
+              "Hello",
+              "Good day",
+              "Hi there"
+          ],
+          "responses": [
+              "Hello! Welcome to our coffee shop.",
+              "Hi! How can I help you today?",
+              "Hey there! What can I get for you?"
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": [
+              "Bye",
+              "Goodbye",
+              "See you later",
+              "Thanks, bye"
+          ],
+          "responses": [
+              "Goodbye! Have a great day!",
+              "See you later! Enjoy your coffee!",
+              "Thanks for visiting, come again soon!"
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": [
+              "Thanks",
+              "Thank you",
+              "I appreciate it",
+              "Thanks a lot"
+          ],
+          "responses": [
+              "You're welcome!",
+              "Happy to help!",
+              "Anytime!",
+              "My pleasure!"
+          ]
+      },
+      {
+          "tag": "menu",
+          "patterns": [
+              "What do you have?",
+              "What's on the menu?",
+              "What drinks do you serve?",
+              "Tell me about your menu"
+          ],
+          "responses": [
+              "We serve espresso, americano, latte, cappuccino, and more.",
+              "Our menu includes espresso, americano, latte, cappuccino, and various teas.",
+              "You can choose from espresso, americano, latte, cappuccino, and teas."
+          ]
+      },
+      {
+          "tag": "order",
+          "patterns": [
+              "I want to order a coffee",
+              "Can I get a latte?",
+              "I'd like a cappuccino",
+              "I'd like to place an order",
+              "Can I order a drink?"
+          ],
+          "responses": [
+              "Sure! What would you like to order?",
+              "Of course! Please tell me your order.",
+              "Absolutely! What drink would you like?",
+              "Sure! Which coffee or tea would you like?"
+          ]
+      },
+      {
+          "tag": "size",
+          "patterns": [
+              "What sizes do you have?",
+              "Can I get a large?",
+              "Do you have small, medium, and large?",
+              "Tell me about the drink sizes"
+          ],
+          "responses": [
+              "We offer small, medium, and large sizes.",
+              "You can choose from small, medium, or large.",
+              "Our drinks come in small, medium, and large."
+          ]
+      },
+      {
+          "tag": "confirm_order",
+          "patterns": [
+              "I'd like a large latte, please",
+              "Can I have a medium cappuccino?",
+              "I'd like a small americano",
+              "I'll have a large espresso"
+          ],
+          "responses": [
+              "Got it! A large latte.",
+              "Sure! One medium cappuccino coming up.",
+              "Alright! A small americano.",
+              "Okay! A large espresso."
+          ]
+      },
+      {
+          "tag": "payment",
+          "patterns": [
+              "How do I pay?",
+              "What payment methods do you accept?",
+              "Can I pay with credit card?",
+              "Do you take cash?"
+          ],
+          "responses": [
+              "We accept cash, credit cards, and mobile payments.",
+              "You can pay with cash, credit card, or mobile payments.",
+              "We take cash, credit cards, and mobile payments."
+          ]
+      },
+      {
+          "tag": "delivery",
+          "patterns": [
+              "Do you deliver?",
+              "Can I get my order delivered?",
+              "Is there delivery available?"
+          ],
+          "responses": [
+              "Yes, we offer delivery services.",
+              "We can deliver your order to your location.",
+              "Delivery is available. Please provide your address."
+          ]
+      }
+  ]
+}
